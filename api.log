@@ -1,0 +1,21 @@
+
+============================================================
+🚀 Excel Template Creator API Server
+============================================================
+
+📡 Server running at: http://localhost:5000
+
+📚 Available endpoints:
+   • POST http://localhost:5000/api/generate
+   • GET  http://localhost:5000/api/download
+   • GET  http://localhost:5000/api/data/weather?city=London
+   • GET  http://localhost:5000/api/data/crypto
+   • GET  http://localhost:5000/api/status
+
+💡 Generate template: curl -X POST http://localhost:5000/api/generate
+============================================================
+
+ * Serving Flask app 'flask_dashboard_api'
+ * Debug mode: on
+Address already in use
+Port 5000 is in use by another program. Either identify and stop that program, or start the server with a different port.
